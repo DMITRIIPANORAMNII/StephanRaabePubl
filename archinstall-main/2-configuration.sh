@@ -10,7 +10,7 @@
 # ------------------------------------------------------
 clear
 keyboardlayout="de-latin1"
-zoneinfo="Europe/Berlin"
+zoneinfo="Europe/Moscow"
 hostname="arch"
 username="raabe"
 
@@ -24,7 +24,7 @@ hwclock --systohc
 # Update reflector
 # ------------------------------------------------------
 echo "Start reflector..."
-reflector -c "Germany," -p https -a 3 --sort rate --save /etc/pacman.d/mirrorlist
+reflector -c "Russia," -p https -a 3 --sort rate --save /etc/pacman.d/mirrorlist
 
 # ------------------------------------------------------
 # Synchronize mirrors
