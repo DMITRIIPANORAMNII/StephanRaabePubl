@@ -32,6 +32,7 @@ lsblk
 
 # Create partitions
 gdisk /dev/sda
+# Press n for new partition 
 # Partition 1: +512M ef00 (for EFI)
 # Partition 2: Available space 8300 (for Linux filesystem)
 # (Optional Partition 3 for Virtual Machines)
