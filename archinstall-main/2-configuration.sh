@@ -9,7 +9,7 @@
 # by Stephan Raabe (2023)
 # ------------------------------------------------------
 clear
-keyboardlayout="de-latin1"
+keyboardlayout="en_US.UTF-8"
 zoneinfo="Europe/Moscow"
 hostname="arch"
 username="raabe"
